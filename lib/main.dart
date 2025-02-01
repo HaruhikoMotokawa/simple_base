@@ -9,6 +9,17 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return const HomeScreen();
+  }
+}
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
