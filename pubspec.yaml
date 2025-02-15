@@ -9,13 +9,16 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.2
   derry:
+  dio: ^5.8.0+1
   flutter:
     sdk: flutter
   flutter_hooks:
+  freezed: ^2.5.8
+  go_router: ^14.8.0
   hooks_riverpod:
   logger:
-  mockito:
   riverpod_annotation:
+  shared_preferences: ^2.5.2
   very_good_analysis:
 
 dev_dependencies:
@@ -25,6 +28,7 @@ dev_dependencies:
     sdk: flutter
   riverpod_generator:
   riverpod_lint:
+  mockito:
 
 flutter:
   # assets:
